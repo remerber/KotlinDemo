@@ -1,0 +1,8 @@
+1.启动协程
+runBlocking 线程和协程之间的过渡  在最外层
+lauch Job
+async/await:Deferred
+2.启动参数
+同步的代码格式发起一次异步的请求
+
+runBlocking 创建的协程直接运行在当前线程上，同时阻塞当前线程直到结束。
